@@ -10,7 +10,7 @@ const Header = ()=> {
             <img style={{marginLeft:80,marginTop:8,height:'75%'}} src={Logo} alt="Logo"/>
         </div>
         <div className='col-6 text-end'>
-            <p style={{marginRight:80,marginTop:10}}> <span> MENU  <img style={{height:'70%'}} src={Menu} alt="Logo"/></span></p>
+            <p style={{marginRight:80,marginTop:10,cursor:'pointer'}}> <span> MENU  <img style={{height:'70%'}} src={Menu} alt="Logo"/></span></p>
         </div>
       </div>
     </div>
