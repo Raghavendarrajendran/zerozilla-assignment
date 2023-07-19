@@ -12,9 +12,17 @@
     color:#475467;
   }
 
+  .floating-button:hover {
+    background-color:black;
+    color:white;
+  }
+
   .icon-css{
     position: absolute;
-    /* margin-bottom: -10% !important; */
     margin-top: 45% !important;
     margin-left:12px;
+  }
+
+  .icon-css:hover{
+    transform: scale(0.8);
   }
