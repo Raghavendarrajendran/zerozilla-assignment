@@ -9,6 +9,11 @@
     margin:10px;
 }
 
+.footer-social:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .footer-title{
     font-size: 18px;
     color:#F9FAFB;

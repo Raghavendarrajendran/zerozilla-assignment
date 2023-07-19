@@ -52,9 +52,9 @@ const OnGoingProjects = ()=> {
         {/* Set 1 */}
 
             <div className='row p-3'>
-                <div className='col-md-6 col-lg-6 col-xl-6'>
+                <div className='card shadow mx-2 col-md-6 col-lg-6 col-xl-6' style={{width:'48%'}}>
                     <div className='row shadow-sm'>
-                        <img className='mt-2 mb-3' src={AccessVilla} alt="Access Villa"/>
+                        <img className='mb-3 p-0' src={AccessVilla} alt="Access Villa"/>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-start'>
                             <p className='on-proj-title-css text-start'> ACCESS VILLA’S </p>
                             <p className='vector-logo-text text-start'> 
@@ -70,9 +70,9 @@ const OnGoingProjects = ()=> {
                     </div>
                 </div>
 
-                <div className='col-md-6 col-lg-6 col-xl-6'>
+                <div className='card shadow mx-3 col-md-6 col-lg-6 col-xl-6' style={{width:'48%'}}>
                     <div className='row shadow-sm'>
-                        <img className='mt-2 mb-3' src={AccessHeight} alt="Access Heights"/>
+                        <img className='mb-3 p-0' src={AccessHeight} alt="Access Heights"/>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-start'>
                             <p className='on-proj-title-css text-start'> ACCESS HEIGHTS </p>
                             <p className='vector-logo-text text-start'> 
@@ -94,9 +94,9 @@ const OnGoingProjects = ()=> {
             {/* Set 2 */}
 
             <div className='row p-3'>
-                 <div className='col-md-6 col-lg-6 col-xl-6'>
+                 <div className='card shadow mx-2 col-md-6 col-lg-6 col-xl-6' style={{width:'48%'}}>
                     <div className='row shadow-sm'>
-                        <img className='mt-2 mb-3' src={AccessEnclave} alt="Access Enclave"/>
+                        <img className='mb-3 p-0' src={AccessEnclave} alt="Access Enclave"/>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-start'>
                             <p className='on-proj-title-css text-start'> ACCESS ENCLAVE </p>
                             <p className='vector-logo-text text-start'> 
