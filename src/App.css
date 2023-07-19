@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=DM+Serif+Text&family=Inter&display=swap');
+body, html {
+  font-family: 'Inter' !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+}

@@ -1,0 +1,20 @@
+.title-css{
+    font-size: 20px;
+    font-weight: 600;
+    color:#101828;
+}
+
+.title-desc-css{
+    font-weight: 500;
+    font-size: 16px;
+    list-style: 24px;
+    color: #475467;
+}
+
+.proj-title-css{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color:#4E5BA6;
+    margin-top:10px;
+}

@@ -1,0 +1,50 @@
+.title-css{
+    font-size: 20px;
+    font-weight: 600;
+    line-height:30px;
+    color:#101828;
+}
+
+.title-desc-css{
+    font-weight: 500;
+    font-size: 16px;
+    list-style: 24px;
+    color: #475467;
+}
+
+.background-image {
+    background-image: url('C:\Users\DELL\Documents\zerozilla\src\Images\Testimonials\frame-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.quote-desc{
+    font-weight: 500;
+    font-size: 18px;
+    list-style: 28px;
+    color: #FFFFFF;
+}
+
+.quote-desc-names{
+    font-weight: 700;
+    font-size: 16px;
+    list-style: 24px;
+    color: #D0D5DD;
+}
+
+.quote-desc-company{
+    font-weight: 400;
+    font-size: 14px;
+    list-style: 20px;
+    color: #D0D5DD;
+    margin-top: -14px;
+}
+
+.quote-desc-dots{
+   margin:5px;
+}
+
+.quote-desc-dots:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+ }

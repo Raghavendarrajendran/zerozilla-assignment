@@ -1,0 +1,46 @@
+.title-css{
+    font-size: 20px;
+    font-weight: 600;
+    line-height:30px;
+    color:#101828;
+}
+
+.title-desc-css{
+    font-weight: 500;
+    font-size: 16px;
+    list-style: 24px;
+    color: #475467;
+}
+
+.location-btn{
+    font-weight: 400;
+    font-size: 16px;
+    list-style: 24px;
+    border-radius: 0;
+    padding:12px 32px;
+    border:1px #D0D5DD solid;
+}
+
+.location-btn:hover{
+   background-color: #000000;
+   color:white;
+}
+
+.on-proj-title-css{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color:#101828;
+    margin-top:10px;
+}
+
+.vector-logo{
+    color:#101828;
+}
+
+.vector-logo-text{
+    color:#475467;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -20px;
+}
