@@ -12,41 +12,59 @@ import Footer from './Sections/footer'
 
 function App() {
   return (
-    <div className="App">
-        <div className='col stickey'>
-            <Header/>
+    <div className="App container-fluid">
+        <div className='row'>
+            <div className='col stickey'>
+                <Header/>
+            </div>
         </div>
 
-        <div className='col'>
-            <Banner/>
+        <div className='row'>
+            <div className='col'>
+                <Banner/>
+            </div>
         </div>
 
-        <div className='col'>
-            <About/>
+        <div className='row'>
+            <div className='col'>
+                <About/>
+            </div>
         </div>
 
-        <div className='col' style={{backgroundColor:"#F2F4F7"}}>
-            <Projects/>
+        <div className='row'>
+            <div className='col' style={{backgroundColor:"#F2F4F7"}}>
+                <Projects/>
+            </div>
         </div>
 
-        <div className='col' style={{backgroundColor:'#363F72'}}>
-            <Philosophy/>
+        <div className='row'>
+            <div className='col' style={{backgroundColor:'#363F72'}}>
+                <Philosophy/>
+            </div>
         </div>
 
-        <div className='col'>
-            <OnGoingProjects/>
+        <div className='row'>
+            <div className='col'>
+                <OnGoingProjects/>
+            </div>
         </div>
 
-        <div className='col' style={{backgroundColor:'#F2F4F7'}}>
-            <Testimonials/>
+        <div className='row'>
+            <div className='col' style={{backgroundColor:'#F2F4F7'}}>
+                <Testimonials/>
+            </div>
         </div>
 
-        <div className='col'>
-            <Contact/>
+        <div className='row'>
+            <div className='col'>
+                <Contact/>
+            </div>
         </div>
 
-        <div className='col' style={{backgroundColor:'#101828'}}>
-            <Footer/>
+        <div className='row'>
+            <div className='col' style={{backgroundColor:'#101828'}}>
+                <Footer/>
+            </div>
         </div>
 
     </div>
