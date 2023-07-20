@@ -13,7 +13,7 @@ import Footer from './Sections/footer'
 function App() {
   return (
     <div className="App">
-        <div className='col'>
+        <div className='col stickey'>
             <Header/>
         </div>
 
