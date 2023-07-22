@@ -13,8 +13,8 @@ import Footer from './Sections/footer'
 function App() {
   return (
     <div className="App container-fluid">
-        <div className='row'>
-            <div className='col stickey'>
+        <div className='row stickey'>
+            <div className='col'>
                 <Header/>
             </div>
         </div>

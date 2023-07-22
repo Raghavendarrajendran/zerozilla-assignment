@@ -20,9 +20,11 @@
   .icon-css{
     position: absolute;
     margin-top: 45% !important;
-  }
-
-  .icon-css:hover{
-    transform: scale(0.8);
+    animation: mymove 5s infinite;
     cursor:pointer;
   }
+
+  @keyframes mymove {
+  from {top: 20px;}
+  to {top: 80px;}
+}

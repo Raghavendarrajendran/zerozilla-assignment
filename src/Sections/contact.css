@@ -26,3 +26,12 @@
     font-weight: 400;
     line-height: 24px;
 }
+
+.send-msg-btn{
+    border-color: #D0D5DD;
+    border-radius: 0;
+    padding:12px 32px;
+    background-color:black;
+    font-size: 16px;
+    color:white;
+}

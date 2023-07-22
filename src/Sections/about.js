@@ -9,7 +9,7 @@ const Banner = ()=> {
             <img src={About} alt="Logo"/>
         </div>
 
-        <div className='col-md-6 col-lg-6 col-xl-6 text-line-height'>
+        <div className='col-md-12 col-lg-6 col-xl-6 text-line-height'>
             <div>
                 <p className='text-start' style={{fontSize:20,fontWeight:600}}> ABOUT US </p>
                 <p className='text-start'> 

@@ -29,18 +29,18 @@ const Footer = ()=> {
         <div className='col-3'>
             <p className='footer-title'> LINKS </p>
             <ul className='text-start footer-about-ul' style={{listStyleType:"none",marginLeft:'30%'}}>
-                <li> <img src={ArrowFooter} alt='Arrow'/> Home </li>
-                <li> <img src={ArrowFooter} alt='Arrow'/> About Us </li>
-                <li> <img src={ArrowFooter} alt='Arrow'/> Property </li>
-                <li> <img src={ArrowFooter} alt='Arrow'/> Blog </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> Home </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> About Us </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> Property </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> Blog </li>
             </ul>
         </div>
         <div className='col-3'>
             <p className='footer-title'> SUPPORT </p>
             <ul className='text-start footer-about-ul' style={{listStyleType:"none",marginLeft:'25%'}}>
-                <li> <img src={ArrowFooter} alt='Arrow'/> Privacy Policy </li>
-                <li> <img src={ArrowFooter} alt='Arrow'/> Terms of Use </li>
-                <li> <img src={ArrowFooter} alt='Arrow'/> Contact </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> Privacy Policy </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> Terms of Use </li>
+                <li className='liner-style'> <img src={ArrowFooter} alt='Arrow'/> Contact </li>
             </ul>
         </div>
         <div className='col-3'>

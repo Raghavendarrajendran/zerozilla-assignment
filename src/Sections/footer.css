@@ -35,3 +35,12 @@
     line-height:24px;
 }
 
+.liner-style{
+    transition: transform 1s linear;
+}
+
+.liner-style:hover{
+    transform: translateX(50px);
+  transition: transform 1s linear;
+}
+
