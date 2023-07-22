@@ -44,7 +44,10 @@ const Contact = ()=> {
                             <input type="email" className="form-control underline-input" id="exampleInput" placeholder="Your Email"/>
                         </div>
                         <div className='col-md-12 col-lg-12 col-xl-12'>
-                            <textarea className="form-control underline-input mt-5" id="exampleFormControlTextarea1" placeholder="Your Message" rows="5"></textarea>
+                            <textarea className="form-control underline-input mt-5" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+                        </div>
+                        <div className='col-md-12 col-lg-12 col-xl-12 text-start mt-3'>
+                            <button className='btn btn-sm send-msg-btn'> SEND MESSAGE </button>
                         </div>
                 </div>
             </div>

@@ -9,10 +9,10 @@ import Integrity from '../Images/Philosophy/integrity.png'
 const Philosophy = ()=> {
   return (
       <div className='row'>
-            <div className='col-md-6 col-lg-6 col-xl-6'>
+            <div className='col-md-12 col-lg-6 col-xl-6'>
                 <img src={PhylosophyImg} alt="Phylosphy"/>
             </div>
-            <div className='col-md-6 col-lg-6 col-xl-6'>
+            <div className='col-md-12 col-lg-6 col-xl-6'>
                 <div className='row mx-5 mt-5'> 
                     <div className='col-md-12 col-lg-12 col-xl-12'>
                         <p className='philo-title-css text-start'> OUR PHILOSOPHY </p>

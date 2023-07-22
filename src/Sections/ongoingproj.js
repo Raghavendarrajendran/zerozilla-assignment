@@ -16,10 +16,10 @@ const OnGoingProjects = ()=> {
             <div className='row p-3'>
                 <div className='col-6'>
                     <div className='row'>
-                        <div className='col-5'>
+                        <div className='col-6'>
                             <p className='title-css text-start'> <span> <img src={ProjLogo} alt="Proj Icon"/> ONGOING PROJECTS </span></p>
                         </div>
-                        <div className='col-7'>
+                        <div className='col-6'>
                             <hr style={{ width:'100%'}}/>
                         </div>
                     </div>
@@ -52,10 +52,10 @@ const OnGoingProjects = ()=> {
         {/* Set 1 */}
 
             <div className='row p-3'>
-                <div className='card shadow mx-2 col-md-6 col-lg-6 col-xl-6' style={{width:'48%'}}>
+                <div className='card shadow mx-2 col-md-12 col-lg-6 col-xl-6' style={{width:'48%'}}>
                     <div className='row shadow-sm'>
                         <img className='mb-3 p-0' src={AccessVilla} alt="Access Villa"/>
-                        <div className='col-md-6 col-lg-6 col-xl-6 text-start'>
+                        <div className='col-md-12 col-lg-6 col-xl-6 text-start'>
                             <p className='on-proj-title-css text-start'> ACCESS VILLA’S </p>
                             <p className='vector-logo-text text-start'> 
                                 <span> 
@@ -64,16 +64,16 @@ const OnGoingProjects = ()=> {
                                 </span>
                             </p>
                         </div>
-                        <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button style={{marginTop:13}} className='btn btn-sm about-more-btn'> Explore Now </button>
+                        <div className='col-md-12 col-lg-6 col-xl-6 text-end'>
+                            <button style={{marginTop:13}} className='btn btn-sm view-more-btn'> Explore Now </button>
                         </div>
                     </div>
                 </div>
 
-                <div className='card shadow mx-3 col-md-6 col-lg-6 col-xl-6' style={{width:'48%'}}>
+                <div className='card shadow mx-3 col-md-12 col-lg-6 col-xl-6' style={{width:'48%'}}>
                     <div className='row shadow-sm'>
                         <img className='mb-3 p-0' src={AccessHeight} alt="Access Heights"/>
-                        <div className='col-md-6 col-lg-6 col-xl-6 text-start'>
+                        <div className='col-md-12 col-lg-6 col-xl-6 text-start'>
                             <p className='on-proj-title-css text-start'> ACCESS HEIGHTS </p>
                             <p className='vector-logo-text text-start'> 
                                 <span> 
@@ -83,8 +83,8 @@ const OnGoingProjects = ()=> {
                             </p>
 
                         </div>
-                        <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button style={{marginTop:13}} className='btn btn-sm about-more-btn'> Explore Now </button>
+                        <div className='col-md-12 col-lg-6 col-xl-6 text-end'>
+                            <button style={{marginTop:13}} className='btn btn-sm view-more-btn'> Explore Now </button>
                         </div>
                     </div>
                 </div>
@@ -94,10 +94,10 @@ const OnGoingProjects = ()=> {
             {/* Set 2 */}
 
             <div className='row p-3'>
-                 <div className='card shadow mx-2 col-md-6 col-lg-6 col-xl-6' style={{width:'48%'}}>
+                 <div className='card shadow mx-2 col-md-12 col-lg-6 col-xl-6' style={{width:'48%'}}>
                     <div className='row shadow-sm'>
                         <img className='mb-3 p-0' src={AccessEnclave} alt="Access Enclave"/>
-                        <div className='col-md-6 col-lg-6 col-xl-6 text-start'>
+                        <div className='col-md-12 col-lg-6 col-xl-6 text-start'>
                             <p className='on-proj-title-css text-start'> ACCESS ENCLAVE </p>
                             <p className='vector-logo-text text-start'> 
                                 <span> 
@@ -107,8 +107,8 @@ const OnGoingProjects = ()=> {
                             </p>
 
                         </div>
-                        <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button style={{marginTop:13}} className='btn btn-sm about-more-btn'> Explore Now </button>
+                        <div className='col-md-12 col-lg-6 col-xl-6 text-end'>
+                            <button style={{marginTop:13}} className='btn btn-sm view-more-btn'> Explore Now </button>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,6 @@ const OnGoingProjects = ()=> {
         </div>
     
       </div>
-      
   )
 }
 

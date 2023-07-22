@@ -48,7 +48,7 @@ const Projects = ()=> {
                             <p className='proj-title-css text-start'> RESIDENTIAL PROJECTS </p>
                         </div>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button className='btn btn-sm about-more-btn'> View More </button>
+                            <button className='btn btn-sm view-more-btn'> View Projects </button>
                         </div>
                         <img className='mt-2' src={ResidentialProj} alt="Residentail Project"/>
                     </div>
@@ -59,7 +59,7 @@ const Projects = ()=> {
                             <p className='proj-title-css text-start'> COMMERCIAL PROJECTS </p>
                         </div>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button className='btn btn-sm about-more-btn'> View More </button>
+                            <button className='btn btn-sm view-more-btn'> View Projects </button>
                         </div>
                         <img className='mt-2' src={CommercialProj} alt="Residentail Project"/>
                     </div>
@@ -75,7 +75,7 @@ const Projects = ()=> {
                             <p className='proj-title-css text-start'> RETAIL PROJECTS </p>
                         </div>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button className='btn btn-sm about-more-btn'> View More </button>
+                            <button className='btn btn-sm view-more-btn'> View Projects </button>
                         </div>
                         <img className='mt-2' src={RetailProj} alt="Residentail Project"/>
                     </div>
@@ -86,7 +86,7 @@ const Projects = ()=> {
                             <p className='proj-title-css text-start'> HOSPITALITY PROJECTS </p>
                         </div>
                         <div className='col-md-6 col-lg-6 col-xl-6 text-end'>
-                            <button className='btn btn-sm about-more-btn'> View More </button>
+                            <button className='btn btn-sm view-more-btn'> View Projects </button>
                         </div>
                         <img className='mt-2' src={HospitalityProj} alt="Residentail Project"/>
                     </div>
